@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Posts</h1>
+  <div class="row">
+    <div class="col-md-8">
+      <%=link_to "Add a New Post", new_post_path, class: 'btn btn-success'%>
+      <%=render @posts%>
+    </div>
+  </div>
+</div>
